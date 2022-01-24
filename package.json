@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.3"
+  },
+  "name": "employee-management-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c3sarin1/Employee-management-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c3sarin1/Employee-management-system/issues"
+  },
+  "homepage": "https://github.com/c3sarin1/Employee-management-system#readme",
+  "description": ""
+}
