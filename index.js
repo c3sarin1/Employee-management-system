@@ -1,17 +1,20 @@
 const inquirer = require('inquirer');
 const mysql = require('mysql2');
-const config = require('./config/config')
+//const config = require('./config/config')
 const prompt = (questions) => inquirer.prompt(questions)
 
 const db = mysql.createConnection(
-    {
-        host: config.hostname,
-        db: config.db,
-        port: config.port,
-        username: config.username,
-        password: config.password
-    }
-)
+  {
+    host: 'localhost',
+    // MySQL username,
+    user: 'root',
+    // TODO: Add MySQL password here
+    password: 'cesarin2001',
+    database: 'employee_db'
+  },
+  console.log(`Connected to the employee_db database.`)
+);
+
 
 db.connect(function(err) {
     if (err) throw err;
